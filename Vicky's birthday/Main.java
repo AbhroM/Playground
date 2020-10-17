@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
- 	int yr;
-  cin>>yr;
-  if(yr%4==0){
-  	if(yr%100==0){
-    	if(yr%400==0){
+ 	int birthYear;
+  cin>>birthYear;
+  if(birthYear%4==0){
+  	if(birthYear%100==0){
+    	if(birthYear%400==0){
         	cout<<"Vicky can celebrate his birthday.";
         }
       else{
